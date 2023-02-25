@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class controller {
     @GetMapping("/")
     String get(){
-        return "Server is runnig From Git <h1>Hi</h1>";
+        return "Server is runnig From Git <h1>Hi Tester</h1>";
     }
 }
