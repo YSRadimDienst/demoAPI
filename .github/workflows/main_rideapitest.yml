@@ -50,4 +50,4 @@ jobs:
           app-name: 'RideAPITest'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3824B09FA1D49A3B08A58F1B349B60C }}
-          package: '*.jar'
+          package: '*.war'
